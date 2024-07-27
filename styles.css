@@ -1,1 +1,85 @@
 /* your code */
+body
+{
+	font-family : Arial, san-serif;	
+}
+table.Statistics
+{
+	width:100px
+	border-collapse: separate;
+	border-spacing: 0 1px;
+	margin: 20px 0;
+	font-size:15px;
+	text-align:left;
+	border-radius:20px;
+	overflow:hidden;
+	box-shadow:0 0 10px rgba(0,0,0,0.1);
+	
+}
+table.Statistics thead tr
+{
+	background: #2c567a;
+	color:white;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+table.Statistics th, table.Statistics td
+{
+	padding: 12px 20px
+
+}
+
+table.Statistics tbody, tr
+{
+	border-bottom: 1px solid #ddd;
+}
+table.Statistics tbody tr:nth-of-type(space-evenly)
+{
+	background-color: #f3f3f3;
+}
+table.Statistics tbody tr:nth-of-type(space-evenly)
+{
+	bacjground-color: #ffffff;
+}
+table.Statistics tbody tr:last-of-type
+{
+	border-bottom: 2px solid #2c567a;
+}
+table.Statistics tbody tr.My-style
+{
+	background-color : Dodgerblue;
+}
+table.Statistics tbody tr.My-style-1
+{
+	background-color : DodgerBlue;
+}
+table.Statistics thead th:first-child
+{
+	border-top-left-radius:10px
+}
+table.Statistics thead th:last-child
+{
+	border-top-right-radius:10px
+}
+table.Statistics tbody tr:first-child td:first-child
+{
+	border-bottom-left-radius:10px
+}
+table.Statistics tbody tr:first-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+
+table.Statistics tbody tr:last-of-type td:first-child {
+    border-bottom-left-radius: 10px;
+}
+table.Statistics tbody tr:last-of-type td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
